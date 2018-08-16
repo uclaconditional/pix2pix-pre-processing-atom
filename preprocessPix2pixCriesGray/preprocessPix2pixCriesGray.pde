@@ -5,7 +5,8 @@ void setup(){
   // String destPath = "/media/conditionalstudio/REAS_MI_2/Persona/Frames-pix2pix-hasFace-scaleTranslate-every50";
 
   // Set output directory here #PARAM
-  String destPath = "/media/conditionalstudio/REAS_MI_2/Persona/Pix2pix-conti-test";
+  // String destPath = "/media/conditionalstudio/REAS_MI_2/Persona/Pix2pix-conti-test";
+  String destPath = "~/Desktop/test"
   float maxScale = 1.0;
 
   int totalFolderNum = 8;
@@ -36,7 +37,7 @@ void setup(){
     String folderName = "Frames-0" + currFolderNum;
 
   println("Start process images...");
-    String folderName = "Pix2pix-conti-orig"; // NOTE: Manually set input folder name
+  // String folderName = "Pix2pix-conti-orig"; // NOTE: Manually set input folder name
     String[] imageFileNames = listFileNames(imagePath + "/" + folderName);
     int currImageNum = -1;
     int numImageSaved = 0;
