@@ -9,7 +9,6 @@ Note:
 		- input directory
 		- output directory
 		- output image name convention
-
 	There is also a for loop that is commented that can be uncommented to loop through all Frames-0* folders.B	
 
 To run on ZOTAC:
