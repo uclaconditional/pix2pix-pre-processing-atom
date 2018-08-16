@@ -6,7 +6,7 @@ void setup(){
 
   // Set output directory here #PARAM
   // String destPath = "/media/conditionalstudio/REAS_MI_2/Persona/Pix2pix-conti-test";
-  String destPath = "~/Desktop/test";
+  String destPath = "/home/conditionalstudio/Desktop";
   float maxScale = 1.0;
 
   int totalFolderNum = 8;
