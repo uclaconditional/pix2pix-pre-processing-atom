@@ -27,9 +27,13 @@ void setup(){
 
 
   // NOTE: Uncomment below and add '}' to input folders Frames-0*
-  // for(int f = 0; f < totalFolderNum; f++){
-  //   int currFolderNum = f+1;
-  //   String folderName = "Frames-0" + currFolderNum;
+  for(int f = 0; f < totalFolderNum; f++){
+      // For picking certain number of frames from select folders
+      // int[] fnum = {1, 3, 6};
+      // for (int k = 0; k < fnum.length; k++){
+      // int f = fnum[k];
+    int currFolderNum = f+1;
+    String folderName = "Frames-0" + currFolderNum;
 
   println("Start process images...");
     String folderName = "Pix2pix-conti-orig"; // NOTE: Manually set input folder name
@@ -140,7 +144,7 @@ void setup(){
         }
     }
     println("Folder done: " + folderName);
-  // } // NOTE: Uncomment if traverse Frames-0*
+  } // NOTE: Uncomment if traverse Frames-0*
   println("All done!");
 }
 

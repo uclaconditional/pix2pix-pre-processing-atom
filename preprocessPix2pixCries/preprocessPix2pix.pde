@@ -1,8 +1,4 @@
-void setup(){
-  String imagePath = "/media/conditionalstudio/REAS_MI_2/Persona"; // Input directory #PARAM
-  // String destPath = "/media/conditionalstudio/REAS_MI_2/Persona/Frames-pix2pix-all-every100";
-  // String destPath = "/media/conditionalstudio/REAS_MI_2/Persona/Pix2pix-test-4contClips";
-  // String destPath = "/media/conditionalstudio/REAS_MI_2/Persona/Frames-pix2pix-hasFace-scaleTranslate-every50";
+estPath = "/media/conditionalstudio/REAS_MI_2/Persona/Frames-pix2pix-hasFace-scaleTranslate-every50";
 
   // Set output directory here #PARAM
   String destPath = "/media/conditionalstudio/REAS_MI_2/Persona/Pix2pix-conti-test";
@@ -28,6 +24,10 @@ void setup(){
 
   // NOTE: Uncomment below and add '}' to input folders Frames-0*
   // for(int f = 0; f < totalFolderNum; f++){
+  // For picking certain number of frames from select folders
+  // int[] fnum = {1, 3, 6};
+  // for (int k = 0; k < fnum.length; k++){
+  //   int f = fnum[k];
   //   int currFolderNum = f+1;
   //   String folderName = "Frames-0" + currFolderNum;
 
