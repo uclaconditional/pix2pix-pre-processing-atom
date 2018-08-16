@@ -82,7 +82,8 @@ void setup(){
         pgResult.beginDraw();
         pgResult.image(scaledTranslatedImage, 0, 0);
 	// Draw grayscale image
-	pgResult.image(img.filter(GRAY), resizeWidth, 0);
+	img.filter(GRAY);
+	pgResult.image(img, resizeWidth, 0);
         pgResult.endDraw();
 
         // Block loops
